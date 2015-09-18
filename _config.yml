@@ -1,11 +1,19 @@
 # Site wide configuration
 
+<<<<<<< HEAD
 title: preetwinder
 locale: en_US
 description: blog
 logo: site-logo.png
 search: true
 url: http://preetwinder.me
+=======
+title: So Simple Theme
+locale: en_US
+description: A simple and clean responsive Jekyll theme for words and photos.
+logo: site-logo.png
+url: preetwinder.me
+>>>>>>> b9708fb7dfb80ac005108ee7e232faa2ef274909
 
 # Jekyll configuration
 
@@ -30,9 +38,11 @@ mathjax: true
 include: [".htaccess"]
 exclude: ["lib", "config.rb", "Capfile", "config", "log", "Rakefile", "Rakefile.rb", "tmp", "less", "*.sublime-project", "*.sublime-workspace", "test", "spec", "Gruntfile.js", "package.json", "node_modules", "Gemfile", "Gemfile.lock", "LICENSE", "README.md", "vendor"]
 
+comments: true
 
 # Site owner
 owner:
+<<<<<<< HEAD
   name: preetwinder
   avatar: bio-photo.jpg
   email: you@email.com
@@ -54,3 +64,26 @@ owner:
     ad-client:
     ad-slot:
   bing-verify:
+=======
+  name: Michael Rose
+  avatar: michael-rose-photo.jpg
+  email: michael@mademistakes.com
+  disqus-shortname: sosimpletheme
+  twitter: mmistakes
+  facebook: michaelrose
+  github: mmistakes
+  stackexchange:
+  linkedin:
+  instagram: mmistakes
+  flickr:
+  tumblr: mademistakes
+  pinterest:
+  weibo:
+  google:
+    plus: MichaelRoseDesign
+    analytics: UA-2011187-2
+    verify: UQj93ERU9zgECodaaXgVpkjrFn9UrDMEzVamacSoQ8Y
+    ad-client: ca-pub-7328585512091257
+    ad-slot: 7855747535
+  bing-verify: D81F4C18A6CB3018F64D7C827D953DFD
+>>>>>>> b9708fb7dfb80ac005108ee7e232faa2ef274909
