@@ -13,4 +13,4 @@ sitemap: false
 I am a Python programmer from India.
 
 
-<a markdown="0" href="{{ site.url }}/theme-setup" class="btn">Install So Simple Theme</a>
+
