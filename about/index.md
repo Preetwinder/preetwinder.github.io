@@ -1,6 +1,6 @@
 ---
-layout: default
-title: About | Purebreeze
+layout: page
+title: "About" 
 ---
 
 I am a Python programmer from India.
