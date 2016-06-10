@@ -1,0 +1,17 @@
+---
+layout: post
+title: "GSoC-1"
+modified:
+categories: blog
+excerpt:
+tags: []
+image:
+feature:
+date: 2016-06-10T10:03:00+05:30
+---
+Hello,  
+This post continues my updates for my work on porting frontera to python2/3 dual support.  
+It has been almost 3 weeks since the beginning of the Google Summer of Code program. During the first 2 weeks, I worked on improving the test coverage of some of the frontera components.
+For the 3rd and 4th week I will be working on the actual porting part for single process mode. I have already began work on this, making the intial changes to the code, and better specifying the data model, in terms 
+of the string type(unicode or bytes) used. There are also some pending dicisions to be made, like whether to use six or future. I will be dicussing these with my mentors soon. I still have some testing part left, which I'll probably finish in the next few days. 
+Things are going well. My co-mentor Alexander Sibiryakov has been very helpful, in advising me, and reviewing my code.
