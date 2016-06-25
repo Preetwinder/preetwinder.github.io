@@ -1,0 +1,23 @@
+---
+layout: post
+title: "GSoC-2"
+modified:
+categories: blog
+excerpt:
+tags: []
+image:
+feature:
+date: 2016-06-24T12:05:00+05:30
+---
+Hello,  
+This post continues my updates for my work on porting frontera to python2/3 dual support.  
+The first coding phase is almost about to end, the task I had to accomplish during this part was Python 3 support for single
+process mode. I have completed this task and will soon by making my pull requests. Firstly I had to make the syntactic changes
+which don't actually change the codes operation, just changes syntax with the same effect. I did this using the modernize script
+which uses the six library to make the code operational in both versions. After that I made some more syntactic changes which
+the modernize script is unable to cover(things like changed class variable names etc). After these changes, the next step is
+to define a precise data model about the type of strings(unicode or bytes) to be used in the API, and the necessary conversions
+to be performed in different parts of the code. For this I have mostly followed the approach of using native strings(unicode in python 3 and bytes in python 2) everywhere.
+After these changes I proceeded to make all the test cases work in both python 2 and 3. I was mostly succesful in this, apart from tests related
+to the distributed mode(which I am yet to work on) and a pending url issue which hasn't yet been addressed.
+Once I make the PR's I am sure I'll have to address a few more issues, but apart from that this part of my work is mostly done.
