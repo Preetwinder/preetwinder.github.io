@@ -1,0 +1,18 @@
+---
+layout: post
+title: "GSoC-3"
+modified:
+categories: blog
+excerpt:
+tags: []
+image:
+feature:
+date: 2016-07-10T19:52:00+05:30
+---
+Hello,  
+This post continues my updates for my work on porting frontera to python2/3 dual support.  
+During the past few days my activity was decreased because I had taken a small break. Before the mid term I had completed my work on
+porting single process mode. I haven't yet submitted some of the PR's, I'll do that when my pending PR's is merged. During the
+past few days I have begun work on tests for distributed mode components. I will be writing tests for frontera workers, hbase backend, kafka message bus, and
+some other components. I have begun work on strategy and db worker tests, and will submit the code in the next few days.   
+My work is going as expected and at a decent pace.
