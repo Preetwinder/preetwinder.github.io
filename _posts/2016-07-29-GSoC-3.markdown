@@ -1,0 +1,20 @@
+---
+layout: post
+title: "GSoC-4"
+modified:
+categories: blog
+excerpt:
+tags: []
+image:
+feature:
+date: 2016-07-29T22:05:00+05:30
+---
+Hello,  
+This post continues my updates for my work on porting frontera to python2/3 dual support.  
+This blog post got delayed, sorry for that. My work on tests still continues. The last few days have mostly been focused on getting
+the existing tests to run on Python 3 on travis. I also made many new changes to the existed PY3 PR after feedback from my mentors, link - https://github.com/scrapinghub/frontera/pull/168
+Once this PR is merged, only three tests will fail in Python 3, and frontera should run in single process mode successfully. Hopefully it will be merged
+in the next few days. After that the remaining work is some new tests(mainly for HBase and workers), I am already working on these, and it shouldn't
+take more than two or three days. And the final job of making changes to HBase, workers, ZMQ, and encoders/decoders to work in Python 3. The challenge of this was
+significantly reduced by the recent dicision by my mentors to convert URL's to ASCII representation, thus eliminating the need to worry about and storing encoding information. So it shouldn't take long for me to cover this. I want to spend the final week 
+on finalizing the release and making changes to the documentation. 
