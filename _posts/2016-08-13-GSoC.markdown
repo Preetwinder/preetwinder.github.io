@@ -1,0 +1,18 @@
+---
+layout: post
+title: "GSoC-5"
+modified:
+categories: blog
+excerpt:
+tags: []
+image:
+feature:
+date: 2016-08-23T20:05:00+05:30
+---
+Hello,  
+This post continues my updates for my work on porting frontera to python2/3 dual support.  
+Only 3 days remain till the beginning of the final clean-up period. The testing work is entirely finished, although there are some
+other modules I might add tests for later. The porting work is also almost done. I have a PR which ports the final components(workers, middlewares) which will most probably be merged on Monday.
+The only remaining modules after that are the messagebus modules. I'll be making a PR with these components on Monday, and it should be merged in the next day or two.
+I plan to spend the next week on making changes to the documentation, and performing tests for various deployment configurations to weed out any problems that might have persisted.
+If things go according to plan, We should be able to make a release with Python 3 support soon after the work period ends(23 August).
